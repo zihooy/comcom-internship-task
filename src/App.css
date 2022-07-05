@@ -1,13 +1,43 @@
+@font-face {
+  font-family: 'SBAggroB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
 body {
- background-color: black;
- color: white;
+  font-family: Pretendard;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('https://ifh.cc/g/BpQAdB.jpg');
+  background-repeat: repeat-y;
+  background-size: cover; 
+  background-position: center;
+  background-color: black;
+  color: white;
+}
+.title {
+  font-family: 'SBAggroB';
+}
+.card {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid white;
 }
 footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 15px 0;
+  position : relative;
+  transform : translateY(-50%);
   text-align: center;
   color: white;
 }
